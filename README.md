@@ -15,3 +15,32 @@ To create the necessary data model for doing analysis and fulfilling the busines
 One data source (sales budgets) were provided in Excel format and were connected in the data model in a later step of the process.
 
 Below are the SQL statements for cleansing and transforming necessary data.
+DIM_calender:
+
+![image](https://github.com/user-attachments/assets/8d6ccd81-c90f-474d-9c64-9e9f0aae23d8)
+
+DIM_Customers:
+
+![image](https://github.com/user-attachments/assets/44734e88-da21-495c-afa1-5fc8e6c898a6)
+
+DIM_Products:
+
+![image](https://github.com/user-attachments/assets/1e5ab71c-4339-447e-be19-c8a1ae40d3f9)
+
+FACT_InternetSales:
+
+![image](https://github.com/user-attachments/assets/0f80db62-1c4a-48cd-85b0-7ec0eddaa6ab)
+
+#Data_Model
+Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
+
+This data model also shows how FACT_Budget hsa been connected to FACT_InternetSales and other necessary DIM tables.
+
+![image](https://github.com/user-attachments/assets/7a5cad47-2b80-462b-8d2a-b51ecd2d22cf)
+
+
+#Sales Management Dashboard
+The finished sales management dashboard with one page with works as a dashboard and overview, with two other pages focused on combining tables for necessary details and visualizations to show sales over time, per customers and per products.
+![image](https://github.com/user-attachments/assets/62637a07-1a23-4950-93f1-2528ec6e78b2)
+
+
